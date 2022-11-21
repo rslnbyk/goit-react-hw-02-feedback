@@ -6,6 +6,7 @@ export const FeedbackButton = styled.button`
   border-radius: 5px;
   border: 1px solid gray;
   font-size: 14px;
+  text-transform: capitalize;
 
   &:hover {
     background-color: #00a2ff;

@@ -7,7 +7,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
       {options.map((opt, idx) => (
         <li key={idx}>
           <FeedbackButton type="button" onClick={() => onLeaveFeedback(opt)}>
-            {opt[0].toUpperCase() + opt.slice(1)}
+            {opt}
           </FeedbackButton>
         </li>
       ))}
